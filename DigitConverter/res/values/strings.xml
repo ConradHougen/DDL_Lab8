@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">DigitConverter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <color name="Blegh">#FF00FF</color>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="BinaryString">to Binary</string>
+    <string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="HexString">to Hexadecimal</string>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="OctalString">to Octal</string>
+    <string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="DigitConvertString">Digit Converter</string>
+	<string name="myClickHandler">myClickHandler</string>
+	<string name="Hint">Enter a decimal number</string>
+	<string name="Instructions">Enter decimal number, pick conversion type, hit convert</string>
+    
+</resources>

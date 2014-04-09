@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LAB8P2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Zin">Zoom In</string>
+    <string name="Zout">Zoom Out</string>
+    <string name="Rtate">rotate</string>
+    <string name="Chng">Change Pic</string>
+    <string name="textView1">textview</string>
+
+</resources>

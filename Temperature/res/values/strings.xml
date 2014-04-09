@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Temperature</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <color android:id="@+id/color1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="myColor">#3399CC</color>
+<string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="celsius">to Celsius</string>
+<string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="fahrenheit">to Fahrenheit</string>
+<string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="calc">Calculate</string>
+<string name="myClickHandler">myClickHandler</string>
+
+</resources>

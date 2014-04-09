@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lab8p2.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cat1" />
+
+       
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Chng" 
+            android:onClick="Change" />
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Rtate"
+            android:onClick="Rotate" />
+
+        <Button
+            android:id="@+id/button3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Zin" 
+            android:onClick="ZoomIn"/>
+
+        <Button
+            android:id="@+id/button4"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ZoomOut"
+            android:text="@string/Zout" />
+        
+         <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textView1" />
+        
+
+    </LinearLayout>
+
+</FrameLayout>
+
